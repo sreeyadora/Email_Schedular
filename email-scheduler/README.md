@@ -27,7 +27,10 @@ Handle background email processing using a queue system
 
 This project demonstrates frontend + backend integration, authentication flow, background workers, and database usage.
 email-scheduler/
-│
+## Project Structure
+
+```text
+email-scheduler/
 ├── backend/
 │   ├── server.py
 │   ├── config.py
@@ -48,9 +51,10 @@ email-scheduler/
 │       │   ├── LoginCallback.js
 │       │   └── UserDashboard.js
 │       └── components/
-│           ├── EmailComposer.js
-│           ├── PendingEmailsTable.js
-│           └── DeliveryHistoryTable.js
+│           └── EmailComposer.js
+│
+└── README.md
+```
 
 🚀 Features Implemented
 ✅ Authentication
