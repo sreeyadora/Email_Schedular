@@ -61,6 +61,7 @@ email-scheduler/
 ```
 
 🚀 Features Implemented
+
 ✅ Authentication
 
 Google OAuth login flow
@@ -96,7 +97,9 @@ Redis used as task queue
 MongoDB stores jobs and logs
 
 ⚙️ Setup Instructions
+
 1️⃣ Backend Setup
+
 cd backend
 python -m venv venv
 venv\Scripts\activate   # Windows
